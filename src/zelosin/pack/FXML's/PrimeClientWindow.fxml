@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="129.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.Controllers.ClientController">
+   <children>
+      <TextField fx:id="dIPTxt" layoutX="38.0" layoutY="14.0" />
+      <Button fx:id="dIPDisconnectButton" layoutX="68.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedDisconnect" text="Отключиться" />
+      <Button fx:id="dIPConnectButton" layoutX="64.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedConnect" text="Подключиться" />
+   </children>
+</Pane>
